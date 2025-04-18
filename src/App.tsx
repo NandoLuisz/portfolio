@@ -82,7 +82,7 @@ export function App() {
                             ${index === 0 ? "bg-zinc-600 cursor-not-allowed" : "bg-zinc-900 hover:bg-zinc-600 cursor-pointer"}`}
                 onClick={backImage}
               />
-              <img src={imagesPreview[index]} alt={`image ${index + 1}`} className="w-full h-[600px] max-md:h-[400px] z-10 rounded-md" />
+              <img src={imagesPreview[index]} alt={`image ${index + 1}`} className="w-full h-[600px] max-md:h-[300px] z-10 rounded-md" />
               <ArrowRight 
                 className={`absolute size-10 top-[43%] right-0 -mr-5 rounded-full p-2 text-white 
                             ${index === imagesPreview.length - 1 ? "bg-zinc-600 cursor-not-allowed" : "bg-zinc-900 hover:bg-zinc-600 cursor-pointer"}`}
