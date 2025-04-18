@@ -1,0 +1,31 @@
+[
+  {
+    "name": "NFL's Blogger",
+    "description": "Um Blog para quem é apaixonado em Tecnologia, Empreemdorismo e Lifestyle. Novos posts todos os dias!",
+    "languages": ["ReactJS", "TypeScript", "Spring", "MySQL"],
+    "github": "https://github.com/NandoLuisz/BLOG",
+    "images_preview": ["../../public/pjt-1/image-1.png", "../../public/pjt-1/image-2.png", "../../public/pjt-1/image-3.png", "../../public/pjt-1/image-4.png", "../../public/pjt-1/image-5.png", "../../public/pjt-1/image-6.png", "../../public/pjt-1/image-7.png"]
+  },
+  {
+    "name": "Sistema de Autenticação",
+    "description": "Sistema de login e registro de usuários integrado a um banco de dados.",
+    "languages": ["Spring", "MySQL", "ReactJS", "TypeScript"],
+    "github": "https://github.com/NandoLuisz/authenticate-app-front",
+    "images_preview": ["../../public/pjt-2/image-1.png", "../../public/pjt-2/image-2.png"]
+  },
+  {
+    "name": "Leitor de Comandos SQL",
+    "description": "Um leitor de comandos/script SQL feito em C.",
+    "languages": ["C", "SQL"],
+    "github": "https://github.com/NandoLuisz/Leitor-de-comandos-SQL",
+    "images_preview": ["../../public/pjt-3/image-1.png", "../../public/pjt-3/image-2.png", "../../public/pjt-3/image-3.png", "../../public/pjt-3/image-4.png"]
+  },
+  {
+    "name": "NFL's Menu",
+    "description": "Um menu online fastfood onde o cliente recebe as informações do pedido por e-mail.",
+    "languages": ["Java", "Spring", "ReactJS", "MySQL"],
+    "github": "https://github.com/NandoLuisz/NFL",
+    "images_preview": ["../../public/pjt-4/image-1.png", "../../public/pjt-4/image-2.png", "../../public/pjt-4/image-3.png", "../../public/pjt-4/image-4.png", "../../public/pjt-4/image-5.png", "../../public/pjt-4/image-6.png", "../../public/pjt-4/image-7.png","../../public/pjt-4/image-8.png"]
+  }
+]
+  
