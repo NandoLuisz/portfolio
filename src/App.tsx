@@ -64,8 +64,8 @@ export function App() {
                       <span className="font-semibold text-sm">BR</span>
                   </div>
                   <div className="flex gap-4 items-center w-[70px]">
-                      <a href="https://www.linkedin.com/in/luis-fernando-soares-487812272/" target="_blank"><Linkedin className="size-6"/></a>
-                      <a href="https://github.com/NandoLuisz?tab=repositories" target="_blank"><Github className="size-6"/></a>
+                      <a href="https://www.linkedin.com/in/luis-fernando-soares-487812272/" target="_blank"><Linkedin className="size-5"/></a>
+                      <a href="https://github.com/NandoLuisz?tab=repositories" target="_blank"><Github className="size-5"/></a>
                   </div>
                 </div>
             </div>

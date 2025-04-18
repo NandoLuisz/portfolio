@@ -57,7 +57,7 @@ export default function ContactComp(){
                     type="submit"
                     className="flex items-center gap-2 px-10 py-3  max-md:text-xs bg-black text-zinc-100 rounded-md hover:opacity-80 cursor-pointer font-semibold"
                     >
-                    <Send />   
+                    <Send className='size-5'/>   
                     Enviar
                 </button>
             </form>
