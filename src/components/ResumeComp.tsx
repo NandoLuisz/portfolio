@@ -1,6 +1,6 @@
 import { Download } from 'lucide-react';
 
-const PDF_FILE_URL = "http://localhost:5173/Currículo.pdf"
+const PDF_FILE_URL = "/Currículo.pdf"
 
 export default function Resume(){
     

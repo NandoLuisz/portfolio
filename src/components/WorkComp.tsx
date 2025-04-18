@@ -38,7 +38,7 @@ export default function WorkComp() {
 
       <div className="w-[65%] grid grid-cols-3 gap-10 max-md:w-[90%] max-md:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {filteredProjects.map((project) => (
-          <div key={project.index} className="col-span-1 text-start group mb-10 h-[430px] max-md:h-[340px] flex flex-col gap-3">
+          <div key={project.index} className="col-span-1 text-start group mb-10 h-[430px] max-md:h-[380px] flex flex-col gap-3">
             <div className="h-[200px] bg-zinc-200 rounded-xl flex items-center justify-center p-2 cursor-pointer"
               onClick={() => openModal(project.index)}>
               <img src={project.images_preview[0]} alt={project.images_preview[0]} className="w-full" />
