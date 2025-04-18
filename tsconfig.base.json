@@ -4,10 +4,12 @@
       "lib": ["esnext", "dom"],
       "module": "ESNext",
       "skipLibCheck": true,
+
+      "incremental": true,
+      "tsBuildInfoFile": "./.tsbuildinfo",
   
       /* Bundler mode */
       "moduleResolution": "node",
-      "allowImportingTsExtensions": true,
       "isolatedModules": true,
       "moduleDetection": "force",
       "noEmit": true,
@@ -17,7 +19,6 @@
       "noUnusedLocals": true,
       "noUnusedParameters": true,
       "noFallthroughCasesInSwitch": true,
-      "noUncheckedSideEffectImports": true
     }
   }
   
