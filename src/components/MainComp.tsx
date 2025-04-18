@@ -1,6 +1,6 @@
 export default function MainComp(){
     return(
-        <main className="w-full min-h-[100vh] flex md:justify-center max-md:w-full max-md:flex-col items-center md:p-10 max-md:gap-6 pb-10">
+        <main className="w-full min-h-[50vh] flex md:justify-center max-md:w-full max-md:flex-col items-center md:p-10 max-md:gap-6 pb-10">
             <img src="/myself.png" alt="Luís Fernando" className="size-132 max-md:size-90" />
             <div className="w-[40%] max-md:w-[90%] max-md:text-center flex flex-col gap-5">
                 <h1 className="text-4xl font-extrabold max-md:text-2xl">Oi, Meu nome é Luís e eu sou um <span className="bg-black text-white">Programador Full-Stack</span>.</h1>
