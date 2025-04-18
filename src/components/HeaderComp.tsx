@@ -1,6 +1,5 @@
-import { LiaLinkedin } from "react-icons/lia";
-import { RiGithubLine } from "react-icons/ri";
 import { useModal } from "../context/modalContext";
+import { Github, Linkedin } from 'lucide-react';
 
 export default function HeaderComp(){
 
@@ -47,8 +46,8 @@ export default function HeaderComp(){
                     <span className="font-semibold">BR</span>
                 </div>
                 <div className="flex gap-4 items-center w-[65px] justify-between">
-                    <a href="https://www.linkedin.com/in/luis-fernando-soares-487812272/" target="_blank"><LiaLinkedin className="size-6 hover:size-7"/></a>
-                    <a href="https://github.com/NandoLuisz?tab=repositories" target="_blank"><RiGithubLine className="size-5 hover:size-6"/></a>
+                    <a href="https://www.linkedin.com/in/luis-fernando-soares-487812272/" target="_blank"><Linkedin className="size-6 hover:size-7"/></a>
+                    <a href="https://github.com/NandoLuisz?tab=repositories" target="_blank"><Github className="size-5 hover:size-6"/></a>
                 </div>
             </div>
             <img src="/icon-hamburger.svg" alt="Links" className="size-4 md:hidden max-md:block" onClick={openModalLinks}/>

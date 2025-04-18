@@ -1,4 +1,4 @@
-import { FiDownload } from "react-icons/fi";
+import { Download } from 'lucide-react';
 
 const PDF_FILE_URL = "http://localhost:5173/Currículo.pdf"
 
@@ -89,7 +89,7 @@ export default function Resume(){
                     className="flex items-center justify-center gap-4 px-5 py-2 max-md:text-base bg-black text-white/80 
                                rounded-md hover:opacity-80 cursor-pointer hover:text-white"
                     onClick={() => downloadFile()}>
-                    <FiDownload />
+                    <Download />
                     Download (27,5 KB)
                 </button>
             </div>

@@ -7,6 +7,9 @@
 
       "incremental": true,
       "tsBuildInfoFile": "./.tsbuildinfo",
+
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
   
       /* Bundler mode */
       "moduleResolution": "node",

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import data from '../../data.json';
-import { FiEye } from "react-icons/fi";
-import { RiGithubLine } from "react-icons/ri";
+import { Github, Eye } from 'lucide-react';
 import { useModal } from "../context/modalContext";
 
 const skills = ["Todos", "Java", "C", "Typescript", "ReactJs", "NextJS", "MySQL", "Spring"];
@@ -74,13 +73,13 @@ export default function WorkComp() {
               <button
                 className="flex items-center gap-2 px-4 py-2 bg-black text-zinc-100 max-md:text-xs rounded-md hover:opacity-80 cursor-pointer font-semibold transition-opacity duration-300 ease-in-out"
                 onClick={() => openModal(project.index)}>
-                <FiEye />
+                <Eye />
                 Prévia
               </button>
               <a
                 href={project.github}
                 className="flex items-center gap-2 px-4 py-2 border-[1px] max-md:text-xs border-black hover:border-black/80 hover:text-black/80 rounded-md cursor-pointer font-semibold transition-opacity duration-300 ease-in-out">
-                <RiGithubLine />
+                <Github />
                 Github repo
               </a>
             </div>

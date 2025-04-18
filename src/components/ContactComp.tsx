@@ -1,5 +1,4 @@
-import { FaArrowRightLong } from "react-icons/fa6";
-import { IoIosSend } from "react-icons/io";
+import { Send, ArrowRight } from 'lucide-react';
 import { toast } from "sonner";
 
 import { z } from "zod"
@@ -58,7 +57,7 @@ export default function ContactComp(){
                     type="submit"
                     className="flex items-center gap-2 px-10 py-3  max-md:text-xs bg-black text-zinc-100 rounded-md hover:opacity-80 cursor-pointer font-semibold"
                     >
-                    <IoIosSend />   
+                    <Send />   
                     Enviar
                 </button>
             </form>
@@ -68,7 +67,7 @@ export default function ContactComp(){
                 </span>
                 <a href="https://mail.google.com/mail/?view=cm&to=nandoluyz2002sales@gmail.com" className="flex gap-2 items-center font-bold">
                     <span>nandoluyz2002sales@gmail.com</span>
-                    <FaArrowRightLong />
+                    <ArrowRight />
                 </a>
             </div>
         </footer>

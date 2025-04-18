@@ -1,4 +1,3 @@
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { useModal } from "./context/modalContext";
 import { useState } from "react";
 import Main from "./components/MainComp";
@@ -8,8 +7,8 @@ import Resume from "./components/ResumeComp";
 import Footer from "./components/ContactComp";
 import { SectionWrapper } from "./utils/SectionWrapper";
 import { Toaster } from "sonner";
-import { LiaLinkedin } from "react-icons/lia";
-import { RiGithubLine } from "react-icons/ri";
+import { Github, Linkedin, ArrowLeft, ArrowRight } from 'lucide-react';
+
 
 export function App() {
 
@@ -65,8 +64,8 @@ export function App() {
                       <span className="font-semibold text-sm">BR</span>
                   </div>
                   <div className="flex gap-4 items-center w-[70px]">
-                      <a href="https://www.linkedin.com/in/luis-fernando-soares-487812272/" target="_blank"><LiaLinkedin className="size-6"/></a>
-                      <a href="https://github.com/NandoLuisz?tab=repositories" target="_blank"><RiGithubLine className="size-6"/></a>
+                      <a href="https://www.linkedin.com/in/luis-fernando-soares-487812272/" target="_blank"><Linkedin className="size-6"/></a>
+                      <a href="https://github.com/NandoLuisz?tab=repositories" target="_blank"><Github className="size-6"/></a>
                   </div>
                 </div>
             </div>
@@ -78,13 +77,13 @@ export function App() {
             onClick={() => [closeModal(), setIndex(0)]}
           >
             <div className="w-[80%] relative" onClick={(e) => e.stopPropagation()}>
-              <IoIosArrowBack 
+              <ArrowLeft 
                 className={`absolute size-10 top-[43%] -ml-5 rounded-full p-2 text-white 
                             ${index === 0 ? "bg-zinc-600 cursor-not-allowed" : "bg-zinc-900 hover:bg-zinc-600 cursor-pointer"}`}
                 onClick={backImage}
               />
               <img src={imagesPreview[index]} alt={`image ${index + 1}`} className="w-full h-[600px] z-10 rounded-md" />
-              <IoIosArrowForward 
+              <ArrowRight 
                 className={`absolute size-10 top-[43%] right-0 -mr-5 rounded-full p-2 text-white 
                             ${index === imagesPreview.length - 1 ? "bg-zinc-600 cursor-not-allowed" : "bg-zinc-900 hover:bg-zinc-600 cursor-pointer"}`}
                 onClick={advanceImage}
